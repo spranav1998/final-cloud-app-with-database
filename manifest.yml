@@ -1,11 +1,9 @@
-  applications:
-  - name: onlinecourse
-    routes:
-      - route: host.domain
+   applications:
+  - name: Pranav_Django_Web_App
+    random-route: true
     memory: 128M
     buildpack: python_buildpack
-  - name: onlinecourse-nginx
-    routes:
-      - route: host.domain/static
+  - name: Pranav_Django_Web_App
+    random-route: true
     memory: 128M
     buildpack: staticfile_buildpack
