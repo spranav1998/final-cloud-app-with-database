@@ -1,9 +1,9 @@
-   applications:
-  - name: Pranav_Django_Web_App
+  applications:
+  - name: Pranav_Django_Web_Application
     random-route: true
     memory: 128M
     buildpack: python_buildpack
-  - name: Pranav_Django_Web_App
+  - name: Pranav_Django_Web_App-nginx
     random-route: true
     memory: 128M
     buildpack: staticfile_buildpack
